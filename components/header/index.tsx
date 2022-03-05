@@ -1,4 +1,10 @@
-import { IoIosMenu, IoLogoApple, IoMdBriefcase } from 'react-icons/io'
+import {
+  IoIosMenu,
+  IoLogoApple,
+  IoMdBriefcase,
+  IoIosSearch,
+} from 'react-icons/io'
+import SideAnimate from './slideAnimation'
 
 export default function Index() {
   const handleClick = () => {
@@ -19,7 +25,9 @@ export default function Index() {
         <p className="textfont mt-1 ">store</p>
         <p className="textfont mt-1">Mac</p>
         <p className="textfont mt-1 ">iPad</p>
+        <IoIosSearch size="1.5rem" color="#fff" className="mt-1" />
       </div>
+      <SideAnimate />
       <style jsx>{`
         .Owncss {
           background: rgba(0, 0, 0, 0.8);

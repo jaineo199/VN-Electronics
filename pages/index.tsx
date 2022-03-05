@@ -4,7 +4,7 @@ import { useEffect } from 'react'
 const Home: NextPage = () => {
   const { push } = useRouter()
   useEffect(() => {
-    push('/products/header')
+    push('/products/home')
   }, [push])
   return null
 }
